@@ -4,15 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solutions website</title>
+
+    <link rel="stylesheet" href="style.css">
+
     <!-- tailwindcss cdn file -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome icon cdn file -->
+    <script src="https://kit.fontawesome.com/41c6573bb4.js" crossorigin="anonymous"></script>
+
 
 </head>
-<body class="eb-garamond-fonts">
+<body >
 
 
             <!-- Header-area start -->
-        <header>
+        <header class="">
+            <nav>
+            <div class="max-w-5xl mx-auto flex items-center justify-between p-7">
+                <img class="h-7" src="images/logo2.png" alt="">
+                
+                <div class="flex items-center gap-20">
+
+                    <ul class="flex gap-10 text-[#00000050] font-bold text-[0.8rem]">
+                        <li><a href="" class="mr-2.5" onclick="event.preventDefault();">Home</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="" class="mr-2.5" onclick="event.preventDefault();">Services</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="" class="mr-2.5" onclick="event.preventDefault();">Cases</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="" class="mr-2.5" onclick="event.preventDefault();">Blog</a><i class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="" class="mr-2.5" onclick="event.preventDefault();">Contact Us</a><i class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                <button class="bg-[#B68C5A] px-5 py-3 text-white rounded border border-transparent transition-all duration-300 ease-in-out hover:bg-[#fff]/10 hover:text-[#B68C5A] hover:border-[#B68C5A] hover:shadow-lg cursor-pointer">Free Consultation</button>
+                 </div>
+                </div>
+            </nav>
+
+
+            <div class="banner-area max-w-[980px] mx-auto flex flex-col items-center text-center justify-center h-[480px]">
+                <div class="banner-content text-white flex flex-col">
+                    <h2 class="eb-garamond-fonts text-[3.9rem] font-[900] leading-[1]">We Provide Effective <br> Legal Solutions</h2>
+                    <p class="w-[560px] mt-4 mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div>
+                        <input class="px-4 py-3 mr-3 text-[0.8rem] font-[500px] bg-white text-black w-[400px] rounded-[8px]" type="search" placeholder="Search your services">
+                        <button class="bg-[#B68C5A] text-white px-6 py-3 rounded-[8px] font-medium cursor-pointer">Search</button>
+                    </div>
+                </div>
+            </div>
+
+                
 
 
 
